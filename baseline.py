@@ -62,6 +62,7 @@ class VaxDataset(Dataset):
 
                 for char_i in range(records['seq_scored']):
                     char_features = char_encode(char_i, features, FEATURE_SIZE)
+                    print(char_features)
                     self.features.append(char_features)
                     self.ids.append('%s_%d' % (records['id'], char_i))
 
