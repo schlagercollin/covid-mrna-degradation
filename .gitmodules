@@ -1,0 +1,4 @@
+
+[submodule "inference/bpRNA"]
+	path = inference/bpRNA
+	url = https://github.com/hendrixlab/bpRNA.git
